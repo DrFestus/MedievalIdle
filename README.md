@@ -1,6 +1,6 @@
 # Medieval Idle
 
-Current Version: 0.1.0-alpha
+Current Version: 0.2.0-alpha
 
 An Idle game set in medieval times currently under development.
 

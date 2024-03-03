@@ -1,14 +1,16 @@
-// Medieval Idle/src/Core/GameEngine.h
-#pragma once
+// GameEngine.h
 
-#include <SFML/Graphics.hpp>
-#include <memory>
+#include "Events/EventDispatcher.h"
+#include "Events/Event.h"
+#include "Resources/ResourceManager.h"
+
+#include <imgui-SFML.h>
+#include <imgui.h>
 
 class GameEngine {
 public:
     GameEngine();
     ~GameEngine();
-
     void run();
 
 private:
@@ -18,7 +20,8 @@ private:
 
     sf::RenderWindow window;
     bool isRunning;
+    bool buttonClicked; // Now a member variable
 
-    // Example: std::unique_ptr<ResourceManager> resourceManager;
+    EventDispatcher dispatcher; // Ensure dispatcher is also a member variable
+    ResourceManager resourceManager;
 };
-#pragma once

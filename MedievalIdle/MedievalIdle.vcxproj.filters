@@ -118,6 +118,9 @@
       <Filter>vendor\glm\glm</Filter>
     </ClInclude>
     <ClInclude Include="src\Config\Version.h" />
+    <ClInclude Include="src\Events\Event.h" />
+    <ClInclude Include="src\Events\EventDispatcher.h" />
+    <ClInclude Include="src\Resources\Food.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Core\GameEngine.cpp">
