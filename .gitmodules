@@ -1,0 +1,6 @@
+[submodule "MedievalIdle/vendor/imgui"]
+	path = MedievalIdle/vendor/imgui
+	url = http://github.com/ocornut/imgui
+[submodule "MedievalIdle/vendor/imgui-sfml"]
+	path = MedievalIdle/vendor/imgui-sfml
+	url = http://github.com/SFML/imgui-sfml

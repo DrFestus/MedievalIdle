@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{A5D31CCF-91A0-77DA-BAB9-6582A6E5AC68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Resources">
+      <UniqueIdentifier>{D76C8757-432D-038E-0C68-4C0B78E7476A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm">
+      <UniqueIdentifier>{829FC5A8-6E57-07F6-D75E-E051C335A2E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\glm">
+      <UniqueIdentifier>{D11AC9C9-BDE8-BCCF-A67C-2DF692E99834}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core\Core.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\EngineCore.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\GameEngine.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Log.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MedievalIdlePCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\Resource.h">
+      <Filter>src\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\ResourceManager.h">
+      <Filter>src\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\Stone.h">
+      <Filter>src\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\Wood.h">
+      <Filter>src\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\common.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\exponential.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\ext.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\fwd.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\geometric.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\glm.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\integer.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat2x2.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat2x3.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat2x4.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat3x2.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat3x3.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat3x4.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat4x2.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat4x3.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\mat4x4.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\matrix.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\packing.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\trigonometric.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\vec2.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\vec3.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\vec4.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm\vector_relational.hpp">
+      <Filter>vendor\glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\GameEngine.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Log.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MedievalIdlePCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
